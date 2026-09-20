@@ -2,7 +2,7 @@
 name: brand-strategy-analysis
 description: "分析区域公用品牌与特色农产品产业，完成行业和本地诊断、品牌定位、经营机制、十二章总体规划及供应链交易、电商、产地场景、渠道专题。适用于品牌战略立项、方案设计和审查；单纯文案、视觉制作或品牌资产估值不触发整套规划。"
 metadata:
-  version: "0.11.1"
+  version: "0.11.2"
   maturity: "review-draft"
 ---
 
