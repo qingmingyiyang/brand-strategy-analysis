@@ -41,7 +41,7 @@
 
 若环境已提供适用技能，再按产物使用：复杂判断用thinking-model或等效推理方法；正式文字用writing或适用汇报方法；HTML品牌演示用brand-html-ppt-design；原生PPTX用ppt-master；DOCX格式用word-doc-format；问卷结果需要表格分析时用可用表格工具或技能。先确认工具与技能存在并读取其说明，未安装时使用本包方法完成可交付部分，明确格式能力边界。
 
-旧版academic-writing-framework、brand-thinking、policy-report-writing只作为方法来源，不自动连锁加载。jingshan-qiaomi仅在确实涉及该项目且资料获准使用时作为待核验项目背景，不能用于其他产区。外部技能不得覆盖本项目已确认的数据基线、最小单元定义与当前任务范围。
+旧版品牌与汇报方法已选择性吸收到本包相应参考，不再连锁加载旧技能。具体项目通过[私人案例库](private-case-library.md)按需读取，保留来源、时期和验证状态，不能套用于其他产区。外部技能不得覆盖本项目已确认的数据基线、最小单元定义与当前任务范围。
 
 ## 简短路由记录
 
