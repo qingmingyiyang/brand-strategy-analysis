@@ -112,6 +112,8 @@ git clone https://github.com/qingmingyiyang/brand-strategy-analysis.git
 | 怎样找关键堵点与主要矛盾 | [问题诊断](references/problem-diagnosis.md) |
 | 如何使用产业组织等理论 | [理论支撑链](references/theory-chain.md) |
 | 怎样展开总体规划与专题 | [总体框架](references/master-plan.md)与[专题方法](references/special-reports.md) |
+| 如何证明不同类型的品牌价值 | [价值主张与证据](references/value-claims-and-evidence.md) |
+| 怎样从研究走到经营设计 | [研究到经营设计](references/research-to-operation.md) |
 | 怎样把报告写深并讲清楚 | [论证与表达](references/writing-and-structure.md) |
 | 怎样准备品牌演示 | [演示模板](references/presentation-template.md) |
 | 怎样安排多Agent协作 | [工作组织与调度](references/agent-orchestration.md) |
@@ -126,7 +128,7 @@ git clone https://github.com/qingmingyiyang/brand-strategy-analysis.git
 
 基础使用需要一个能够读取技能文件和项目材料的 AI 助手。分析访谈时提供文字转写即可；需要联网补证或多Agent协作时，再使用助手提供的对应工具。
 
-当前版本为 **0.13.0**，研究流程、操作模板和示例已整理在仓库中。欢迎通过实际使用检验并改进这些方法；[待验证用例](evals/cases.md)列出了后续测试场景，[更新记录](CHANGELOG.md)记录各版变化。
+当前版本为 **0.15.0**，研究流程、操作模板和示例已整理在仓库中。制作材料或相关代码时，优先查用统一组件；验证过且有后续复用价值的能力，按项目范围纳入现有组件库。欢迎通过实际使用检验并改进这些方法；[待验证用例](evals/cases.md)列出了后续测试场景，[更新记录](CHANGELOG.md)记录各版变化。
 
 分析的可靠程度取决于材料质量和后续核验。涉及具体经营选择时，建议结合现场记录和小规模试验继续验证。
 
