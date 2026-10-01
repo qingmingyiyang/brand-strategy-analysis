@@ -1,0 +1,4 @@
+references/private/
+__pycache__/
+*.pyc
+*.zip

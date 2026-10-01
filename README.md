@@ -87,6 +87,21 @@ git clone https://github.com/qingmingyiyang/brand-strategy-analysis.git
 
 以消费者访谈为例，交付要包含访问对象、开场话术、问题顺序、追问条件、记录样例和检查方法。执行者知道怎么开始，也知道遇到答不上来或说法冲突时如何继续。具体见[最小单元与交付标准](references/output-contracts.md)。
 
+希望边做边学时，可以直接说：请先用最简单的话讲清基础，带我做一个小步骤，再根据我的操作逐步加深。助手会从整体目标倒推眼前需要的基础，示范、反馈，再把小单元组合起来。例如，先学会记录一笔交易，再比较两笔交易，随后才分析价格差异的原因。已有能力直接复用，具体见[教学短循环](references/collaborative-inquiry.md#由繁入简再由简入繁)。
+
+## 用案例把最小单元讲清楚
+
+手册体现的是最小单元的可执行程度。准备开展具体工作时，助手会用案例把分析展开为材料、步骤、判断分支、完成样例和检查方法，帮助你理解为什么这样做，再按实际情况运用。你可以直接要求：请给我一份明天拿到现场就能用的操作包，说明每一步为什么做、如何记录以及卡住时怎么办。
+
+| 要完成的动作 | 方法与案例 |
+|---|---|
+| 把证据、判断与工程连起来并追查更正 | [决策底稿与统一字段](references/decision-model.md) |
+| 把品牌承诺交给不同角色兑现 | [品牌兑现与共同治理](references/brand-operating-manual.md) |
+| 算清一单收益、主体参与条件和观察指标 | [经营测算与指标](references/economics-and-metrics.md) |
+| 用一套虚构材料练习完整判断与交接 | [贯穿练习](evals/manual-case.md) |
+
+八项基石在[技能入口](SKILL.md#八项基石原则)集中说明，详细方法与案例按当前任务展开。
+
 ## 从一次调研到完整规划
 
 你可以只做一个环节，也可以逐步形成 **1+4+1**：
@@ -128,7 +143,7 @@ git clone https://github.com/qingmingyiyang/brand-strategy-analysis.git
 
 基础使用需要一个能够读取技能文件和项目材料的 AI 助手。分析访谈时提供文字转写即可；需要联网补证或多Agent协作时，再使用助手提供的对应工具。
 
-当前版本为 **0.15.0**，研究流程、操作模板和示例已整理在仓库中。制作材料或相关代码时，优先查用统一组件；验证过且有后续复用价值的能力，按项目范围纳入现有组件库。欢迎通过实际使用检验并改进这些方法；[待验证用例](evals/cases.md)列出了后续测试场景，[更新记录](CHANGELOG.md)记录各版变化。
+当前版本为 **0.19.1**，研究流程、操作模板和示例已整理在技能文件中。制作材料或相关代码时，优先查用统一组件；验证过且有后续复用价值的能力，按项目范围纳入现有组件库。欢迎通过实际使用检验并改进这些方法；[待验证用例](evals/cases.md)列出了后续测试场景，[更新记录](CHANGELOG.md)记录各版变化。
 
 分析的可靠程度取决于材料质量和后续核验。涉及具体经营选择时，建议结合现场记录和小规模试验继续验证。
 
@@ -137,6 +152,17 @@ git clone https://github.com/qingmingyiyang/brand-strategy-analysis.git
 欢迎通过[Issue](https://github.com/qingmingyiyang/brand-strategy-analysis/issues)分享使用中卡住的步骤，或通过[Pull Request](https://github.com/qingmingyiyang/brand-strategy-analysis/pulls)改进方法与示例。
 
 反馈时说明使用版本、要完成的任务、实际结果和期望改进即可。有具体例子会更容易定位问题，请使用你有权公开的脱敏材料。私人项目内容进入公开案例前，需要取得材料权利人的明确授权。
+
+## 维护与打包
+
+`public-files.txt`是公共文件清单。新增公共材料时更新清单，再运行：
+
+```sh
+python scripts/build_public.py --source . --check-only
+python scripts/build_public.py --source . --output brand-strategy-analysis.zip
+```
+
+脚本校验版本、本地文件引用和用例分组编号，并只打包清单内文件。私人经验留在`references/private/`，Git忽略规则提供第二层保护。上传前核对实际暂存文件；已被Git追踪的私人文件需要另外处理。维护记录和真实评估产物保存在各自项目中。
 
 ## 许可
 
