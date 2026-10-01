@@ -38,3 +38,6 @@ scripts/check_project.py
 public-files.txt
 .gitignore
 evals/fixtures/decision-ledger.md
+references/economic-accounting.md
+references/investment-economics.md
+evals/fixtures/economic-cycle-input.md

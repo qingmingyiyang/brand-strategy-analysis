@@ -24,4 +24,4 @@
 
 ## 操作材料
 
-品牌承诺、共同治理与分阶段投入使用[品牌经营手册](brand-operating-manual.md)。单位经济、主体收益、价差和验收指标使用[测算手册](economics-and-metrics.md)。证据到决策和工程的关联使用[决策底稿](decision-model.md)，只补当前任务缺失字段。
+本文件已足以完成当前设计时直接交付。还缺品牌兑现、治理或投入条件时，取[品牌经营](brand-operating-manual.md)对应单元；要实际核算周期收益与现金时取[经营核算](economic-accounting.md)，长期投资取[投资经济性](investment-economics.md)；只定义收益对照、价差或指标时取[相应单元](economics-and-metrics.md)。编号与关联字段不明才取[决策底稿](decision-model.md)，已存在的基线和接口继续复用。

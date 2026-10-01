@@ -37,7 +37,7 @@ git clone https://github.com/qingmingyiyang/brand-strategy-analysis.git
 
 ### 2. 让 AI 读取技能
 
-使用能够读取本地 Markdown 文件的 AI 助手，提供解压后的目录位置，让它先读取 `SKILL.md`。入口会引导它按任务读取 `references/` 中的方法。
+使用能够读取本地 Markdown 文件的 AI 助手，提供解压后的目录位置，让它先读取 `SKILL.md`。入口会引导它先读取当前任务的主方法，再按具体缺口补充 `references/` 中的相关部分。
 
 将下面的路径换成你的实际路径，直接发送：
 
@@ -97,7 +97,9 @@ git clone https://github.com/qingmingyiyang/brand-strategy-analysis.git
 |---|---|
 | 把证据、判断与工程连起来并追查更正 | [决策底稿与统一字段](references/decision-model.md) |
 | 把品牌承诺交给不同角色兑现 | [品牌兑现与共同治理](references/brand-operating-manual.md) |
-| 算清一单收益、主体参与条件和观察指标 | [经营测算与指标](references/economics-and-metrics.md) |
+| 算清经营收益、跨期库存、回款和资金缺口 | [经营与现金核算](references/economic-accounting.md) |
+| 比较设施投资、回收及长期公共投入 | [投资经济性](references/investment-economics.md) |
+| 比较主体收益、成交价差和观察指标 | [收益价差与指标](references/economics-and-metrics.md) |
 | 用一套虚构材料练习完整判断与交接 | [贯穿练习](evals/manual-case.md) |
 
 八项基石在[技能入口](SKILL.md#八项基石原则)集中说明，详细方法与案例按当前任务展开。
@@ -143,7 +145,7 @@ git clone https://github.com/qingmingyiyang/brand-strategy-analysis.git
 
 使用能够读取本地文件的 AI 助手，提供项目背景和现有材料即可开始。访谈资料可直接提供文字转写；需要外部资料时使用联网工具，任务较大时可按助手支持的方式组织多Agent协作。
 
-当前版本为 **0.19.2**。你可以从访谈设计、问题诊断或某份专题进入，也可以用[贯穿练习](evals/manual-case.md)熟悉方法。各版变化见[更新记录](CHANGELOG.md)。
+当前版本为 **0.20.0**。你可以从访谈设计、问题诊断或某份专题进入，也可以用[贯穿练习](evals/manual-case.md)熟悉方法。各版变化见[更新记录](CHANGELOG.md)。
 
 ## 反馈与贡献
 

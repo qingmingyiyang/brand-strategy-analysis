@@ -64,4 +64,4 @@
 
 ## 共用操作模板
 
-四专题统一使用[经营测算与指标](economics-and-metrics.md)，上文只补业务特有项；按[品牌兑现与投入条件](brand-operating-manual.md)核对共同承诺和当前可推进范围。
+专题出现收益、成本或资金判断时使用[完整周期核算](economic-accounting.md)，涉及设施投资与回收时使用[投资经济性](investment-economics.md)。只定义指标或比较价差时取[相应单元](economics-and-metrics.md)。现有业务逻辑与基线足够时直接推进；共同承诺或投入资格尚不清楚才补[品牌经营](brand-operating-manual.md)对应单元。
