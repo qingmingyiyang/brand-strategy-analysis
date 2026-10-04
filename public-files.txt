@@ -41,3 +41,5 @@ evals/fixtures/decision-ledger.md
 references/economic-accounting.md
 references/investment-economics.md
 evals/fixtures/economic-cycle-input.md
+references/market-trends.md
+references/brand-value-evaluation.md

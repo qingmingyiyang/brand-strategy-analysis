@@ -127,9 +127,11 @@ git clone https://github.com/qingmingyiyang/brand-strategy-analysis.git
 | 如何选择当前工作流 | [任务路由](references/stage-routing.md)与[工作流](references/workflows.md) |
 | 怎样组织访谈并整理日报 | [调研闭环](references/fieldwork.md) |
 | 怎样找关键堵点与主要矛盾 | [问题诊断](references/problem-diagnosis.md) |
+| 怎样判断趋势并选择适合本地的回应 | [市场趋势与战略适配](references/market-trends.md) |
 | 如何使用产业组织等理论 | [理论支撑链](references/theory-chain.md) |
 | 怎样展开总体规划与专题 | [总体框架](references/master-plan.md)与[专题方法](references/special-reports.md) |
 | 如何证明不同类型的品牌价值 | [价值主张与证据](references/value-claims-and-evidence.md) |
+| 怎样比较年度变化并提炼八类品牌价值 | [品牌价值评价](references/brand-value-evaluation.md) |
 | 怎样从研究走到经营设计 | [研究到经营设计](references/research-to-operation.md) |
 | 怎样把报告写深并讲清楚 | [论证与表达](references/writing-and-structure.md) |
 | 怎样准备品牌演示 | [演示模板](references/presentation-template.md) |
@@ -145,7 +147,7 @@ git clone https://github.com/qingmingyiyang/brand-strategy-analysis.git
 
 使用能够读取本地文件的 AI 助手，提供项目背景和现有材料即可开始。访谈资料可直接提供文字转写；需要外部资料时使用联网工具，任务较大时可按助手支持的方式组织多Agent协作。
 
-当前版本为 **0.20.0**。你可以从访谈设计、问题诊断或某份专题进入，也可以用[贯穿练习](evals/manual-case.md)熟悉方法。各版变化见[更新记录](CHANGELOG.md)。
+当前版本为 **0.24.0**。你可以从访谈设计、问题诊断或某份专题进入，也可以用[贯穿练习](evals/manual-case.md)熟悉方法。各版变化见[更新记录](CHANGELOG.md)。
 
 ## 反馈与贡献
 
