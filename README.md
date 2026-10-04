@@ -147,7 +147,7 @@ git clone https://github.com/qingmingyiyang/brand-strategy-analysis.git
 
 使用能够读取本地文件的 AI 助手，提供项目背景和现有材料即可开始。访谈资料可直接提供文字转写；需要外部资料时使用联网工具，任务较大时可按助手支持的方式组织多Agent协作。
 
-当前版本为 **0.25.1**。你可以从访谈设计、问题诊断或某份专题进入，也可以用[贯穿练习](evals/manual-case.md)熟悉方法。各版变化见[更新记录](CHANGELOG.md)。
+当前版本为 **0.26.0**。你可以从访谈设计、问题诊断或某份专题进入，也可以用[贯穿练习](evals/manual-case.md)熟悉方法。各版变化见[更新记录](CHANGELOG.md)。本次[真实案例三轮评测](https://github.com/qingmingyiyang/brand-strategy-analysis/blob/main/evals/real-cases.md)公开了来源、完整业务答卷与限制，模型走查不等于真人学习验证。
 
 ## 反馈与贡献
 

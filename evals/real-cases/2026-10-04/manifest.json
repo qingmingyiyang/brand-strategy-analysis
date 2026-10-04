@@ -1,0 +1,204 @@
+{
+  "base_commit": "c6da374834c10b32572364253426e125343b15fc",
+  "release_version": "0.26.0",
+  "execution_date": "2026-10-04",
+  "business_outputs": [
+    "round-01/baseline-output.md",
+    "round-01/baseline-update-output.md",
+    "round-01/candidate-output.md",
+    "round-01/candidate-update-output.md",
+    "round-02/baseline-output.md",
+    "round-02/baseline-update-output.md",
+    "round-03/baseline-output.md",
+    "round-03/baseline-update-output.md",
+    "round-03/candidate-output.md",
+    "round-03/candidate-update-output.md"
+  ],
+  "method": "Three sequential exploratory cycles; retain allowed; fresh initial contexts; updates continue each initial context. No no-skill control or human learner study.",
+  "candidate_version_note": "Unpublished snapshots marked 0.25.2 are distinguished by snapshot hashes; no 0.25.2 release occurred. Final tested method body matches round03-candidate.",
+  "measurement_limits": {
+    "samples_per_condition": 1,
+    "model_identifier": "not independently recorded",
+    "reasoning_setting": "xhigh requested consistently",
+    "token_usage": "not available",
+    "causal_effect_estimate": null
+  },
+  "files": {
+    "PROTOCOL.md": {
+      "sha256": "9c28936f47ae9467790e34389b876deb943ec5a3c8eda9e183e7737d8ae733b2",
+      "bytes": 3849
+    },
+    "SOURCE-NOTICES.md": {
+      "sha256": "bf1a41459a2b281b6bf56d258e57467124eb6f5e39acbb9accbc0add616e3773",
+      "bytes": 1576
+    },
+    "SUMMARY.md": {
+      "sha256": "2df39570f2a8717e656f09b52557cd80f8cd16ad818ce9531a844136a9ae7d94",
+      "bytes": 4262
+    },
+    "open-benchmarks.md": {
+      "sha256": "79e74d4504d8f03b4cedb75f3d6c5802be20f91fb0403215de4651a6d21b2fd6",
+      "bytes": 5959
+    },
+    "round-01/additional-input.md": {
+      "sha256": "25692652ea5eb615ed1ffac983bf5ff36579323a6c56f609a3a276aae15a3dbf",
+      "bytes": 1112
+    },
+    "round-01/baseline-output.md": {
+      "sha256": "224bd5337dbf4a866346a5ede798358674de841ad5bbdeb849148cc0af1c3ea5",
+      "bytes": 10599
+    },
+    "round-01/baseline-update-output.md": {
+      "sha256": "c1edfe97e76c278646e03e8aba4f6033668a5806484baeef56b861b2696eb943",
+      "bytes": 10866
+    },
+    "round-01/candidate-output.md": {
+      "sha256": "1590c60447c2de387718a47995dab74d1b25b9372ed5fbbd8fb5a9b1aa82e80c",
+      "bytes": 10501
+    },
+    "round-01/candidate-update-output.md": {
+      "sha256": "b7230c4ab420f2be1172161bc95a548553111e28c0bad029420f08bb7c54fbea",
+      "bytes": 9183
+    },
+    "round-01/diagnosis.md": {
+      "sha256": "a741275211e58aaf492b1ba747ea04045cdc443049dfbbca7218cd6b34a511fb",
+      "bytes": 1376
+    },
+    "round-01/independent-initial-review.md": {
+      "sha256": "b07b3d4c1bce328419f76bd47760b376fb3bd228bce712a53467a27c8388b327",
+      "bytes": 3456
+    },
+    "round-01/independent-regression-review.md": {
+      "sha256": "9acd9e173cad6af16723d031099b9f89c13b00eaf4bcdca45a188b55a946bc5a",
+      "bytes": 3272
+    },
+    "round-01/input.md": {
+      "sha256": "7afba06ab16231a487471a01fba404a9275cf6b87265a48e7a1cfb48e57df96a",
+      "bytes": 1772
+    },
+    "round-01/method-change.patch": {
+      "sha256": "88cbadf2c8ed50fdf65d58542a1526ad2333f9289a485c870cdbafc7d8272e2c",
+      "bytes": 1174
+    },
+    "round-01/prompt.md": {
+      "sha256": "e57422929afdc8fc5a40f021763a36e2604824e3d7a6c018aecb6a0263bcff37",
+      "bytes": 1211
+    },
+    "round-01/result.md": {
+      "sha256": "996ec05502b7c308bb730304ea8093069b3dcaef6725369d49e01b95462ac078",
+      "bytes": 1678
+    },
+    "round-01/update-prompt.md": {
+      "sha256": "d858d694ff01c98e1e63c9645d7d0c09de0b18713e82b48aef57255d4467b732",
+      "bytes": 420
+    },
+    "round-02/additional-input.md": {
+      "sha256": "94dc06fdf3b260c31f80fb8b3892f2dd8689a11836229e91da0006b64e44db78",
+      "bytes": 2775
+    },
+    "round-02/baseline-output.md": {
+      "sha256": "f20e4f6925d04504040303602db20bf87130f74377a586e2b99c130e0f01c355",
+      "bytes": 9744
+    },
+    "round-02/baseline-update-output.md": {
+      "sha256": "93ce09a4104863f3fc88be445ea3a9b102de2de6527294a0a9e99f59e99e37f1",
+      "bytes": 10921
+    },
+    "round-02/diagnosis.md": {
+      "sha256": "51f32d70bd4927bc221d5be9715bba3b784ef4265be3150d1f5fe8851b177eb4",
+      "bytes": 1259
+    },
+    "round-02/independent-initial-review.md": {
+      "sha256": "44974685b48baf84b41fb0a7b6d9b43b7f31b666f1509596baa73493808be626",
+      "bytes": 3211
+    },
+    "round-02/input.md": {
+      "sha256": "f270241407b8c74def655e8c7e0886fb659d9f6d94a1bbb96f99b702c4e53e0a",
+      "bytes": 1836
+    },
+    "round-02/prompt.md": {
+      "sha256": "c3d1d6ac66a4ddd69de070a898476bfb4a4b2efef7899b69b2e4ac597b8c420e",
+      "bytes": 1214
+    },
+    "round-02/result.md": {
+      "sha256": "285e4c4aceaf72eaa82ea974114bdc1f501a3af3392eb049f1a5fab15584a009",
+      "bytes": 1535
+    },
+    "round-02/update-prompt.md": {
+      "sha256": "d858d694ff01c98e1e63c9645d7d0c09de0b18713e82b48aef57255d4467b732",
+      "bytes": 420
+    },
+    "round-03/additional-input.md": {
+      "sha256": "97f9c5d023f99d5e364b6de8dd31b424e9fbc75c3968d7311b6f0fb3458c437c",
+      "bytes": 3485
+    },
+    "round-03/baseline-output.md": {
+      "sha256": "ff14c02a351149f5d402313acfd054b75131da2c0acfd484f50fb891770b9cf3",
+      "bytes": 11256
+    },
+    "round-03/baseline-update-output.md": {
+      "sha256": "aec0cdf6ce70fccdebbc31e92cf41c32b7c5683e840d27fd628fb2e3057057cc",
+      "bytes": 14486
+    },
+    "round-03/candidate-output.md": {
+      "sha256": "7177abd9ca3935b2cfff09498b88952331590ca6329e4fcfbddfe0b05c6856cf",
+      "bytes": 11380
+    },
+    "round-03/candidate-update-output.md": {
+      "sha256": "830e88338880a3acdfd7279a48852f59a5c4fc25042ee0d153272d0494995f2e",
+      "bytes": 13526
+    },
+    "round-03/diagnosis.md": {
+      "sha256": "12b74e62a0d60b4c1465f8890bae537eb3ea03751815a744d40cc4b5956ae16e",
+      "bytes": 1254
+    },
+    "round-03/independent-initial-review.md": {
+      "sha256": "83b5d610d6b3c6fa2c2927ec2a9dd2c6e316b7e3cfbec64cf9afd22f3e47f1ea",
+      "bytes": 4147
+    },
+    "round-03/independent-regression-review.md": {
+      "sha256": "68001f6f54dd476488a36b1b07ff16b80cce59ea286a37ed0d4e8f0ff82fd9ae",
+      "bytes": 3549
+    },
+    "round-03/input.md": {
+      "sha256": "6ac6f32d22b74338972cc8c13346ef3243205e936d5cf32731934b9ee0eacb94",
+      "bytes": 1725
+    },
+    "round-03/method-change.patch": {
+      "sha256": "381225b15689ada98382d2ed63d7c3fa1e77b294386eaa3c52e7fd2faa3d7c4b",
+      "bytes": 2215
+    },
+    "round-03/prompt.md": {
+      "sha256": "30ba00c6f78e40d7d92d5cac18e161bd972b28ab6dbdbb5f75dbd641537c594e",
+      "bytes": 1217
+    },
+    "round-03/result.md": {
+      "sha256": "8f27c9fc04866a1117fe672f9ac56cffc8c46a1b70ee76da848cc58523b0d94b",
+      "bytes": 2299
+    },
+    "round-03/update-prompt.md": {
+      "sha256": "d858d694ff01c98e1e63c9645d7d0c09de0b18713e82b48aef57255d4467b732",
+      "bytes": 420
+    },
+    "snapshot-hashes/round01-baseline.json": {
+      "sha256": "c14691ea28578d4162be4048a18b7750eb940df71b8d97980f6dda660cdfccfb",
+      "bytes": 4571
+    },
+    "snapshot-hashes/round01-candidate.json": {
+      "sha256": "d71d222046384bdb124ebe2f9fc0121d85ab23043aa1c2685062f69bae69cd9d",
+      "bytes": 4571
+    },
+    "snapshot-hashes/round02-baseline.json": {
+      "sha256": "d71d222046384bdb124ebe2f9fc0121d85ab23043aa1c2685062f69bae69cd9d",
+      "bytes": 4571
+    },
+    "snapshot-hashes/round03-baseline.json": {
+      "sha256": "d71d222046384bdb124ebe2f9fc0121d85ab23043aa1c2685062f69bae69cd9d",
+      "bytes": 4571
+    },
+    "snapshot-hashes/round03-candidate.json": {
+      "sha256": "18752d30976813200d01b966d9e1797c8d11dd94b6612aa07b832806a4077ca4",
+      "bytes": 4571
+    }
+  }
+}
