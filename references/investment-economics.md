@@ -41,4 +41,13 @@
 
 交付选项对照表、全周期现金表、指标公式及来源、关键情景、未结事项和当前可承担投入范围。再从金额表逐项反查：建设延迟是否推迟收入，运营与更新是否覆盖评价期，残值是否净额可实现，补贴是否有到期日，营运资金是否真能回收。用复算结果改写投入建议。
 
+## 等间隔投资复算
+
+生命周期、视角和现金归属已经核定，需要重复比较折现率或运营情景时，可使用[经济计算器](../scripts/calculate_economics.py)的 `investment` 模块。输入和命令沿用[多情景复算说明](economic-accounting.md#多情景重复复算工具)，[合成教学输入](../evals/fixtures/economics-scenarios.json)包含可直接改写的三年投资情景。
+
+1. 填 `perspective`。项目融资前使用 `project_pre_financing`，每期显式输入 `operating_before_working_capital`、`capital_spend`、`working_capital_change` 和 `net_asset_recovery`，对应上文A、K、ΔN、S。出资者回报使用 `investor_cash_flow`，逐期给实际出资 `investor_contribution` 与可分配回款 `investor_distribution`；借款、还本付息与税影响应先在底稿核定，再形成出资者现金，工具不自动构造融资方案。
+2. 将 `frequency` 和 `rate_frequency` 同设为 `month`、`quarter` 或 `year`。`discount_rate` 填同频率折现率，10%写成 `"0.10"`。工具按等间隔时点计折现，不自动把年利率当月利率，也不计算不规则日期的净现值。
+3. `periods` 从 `t=0` 连续排列，每期填写名称、阶段与全部金额；无现金的期间仍保留显式零值。`cash_scope` 说明基准时点、税与名义／不变价格口径、融资处理和期末责任。在准备、运营、更新、退出或有依据的期末延续价值已覆盖后，将 `lifecycle_complete` 填 `true`。这项字段记录编制者确认，完整性仍由原始材料复核。
+4. 读取逐期 `net_cash`、`present_value`、`cumulative_undiscounted_cash` 及合计 `npv`，与原始现金表逐项对账后用于方案比较。教学算例应得到NPV约−0.128万元、未折现总净现金2万元；结果不自动转成年收益率。
+
 全周期方案比较、增量成本收益和社会边界内转移去重参考[Green Book方法](https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-government/the-green-book-2026)。本文件提取核算思路；实际采用的评价期、折现率与公共政策条件由项目所在地区和决策制度确定。

@@ -75,6 +75,30 @@
 5. **敏感性**：改变最影响决定的成交价、业务量、损耗、配送、账期等参数，明确情景为何合理；联合情景检查它们是否可能同时发生。
 6. **交付**：给结论、适用范围、参数及来源、公式、周期表、缺口与取数动作。关键缺数时提供条件性结果，例如在销量达到Q且回款不迟于某日时可继续，暂不生成无法支持的回报率。
 
+## 多情景重复复算工具
+
+跨期回款、月内资金低点或多组经营参数需要反复复算时，可使用[经济计算器](../scripts/calculate_economics.py)。少量简单计算沿用上文公式即可。工具分别接收现金和经营输入，采购付款放入现金模块，已售单位成本放入经营模块。
+
+1. 复制[合成教学情景](../evals/fixtures/economics-scenarios.json)到项目工作目录，保留本轮需要的情景与模块。逐项换成真实材料，未取得的数字先补数，不填成零。
+2. 每个情景填写 `name`、`subject`、`currency`、`monetary_unit`、`nature`、`source` 和 `basis`。`nature` 使用 `actual`、`forecast` 或 `assumption`；`basis` 写明税、价格及纳入范围。金额统一使用所填币种和金额单位，不在同一情景混用元与万元。金额推荐写成字符串，如 `"3000.50"`；无该项收付或成本经核实后显式填 `"0"`。
+3. `cash` 的 `periods` 按日期连续覆盖观察窗，交易按 `date` 与同日 `sequence` 严格递增。`amount` 填非负数，`direction` 填 `in` 或 `out`。`category` 区分 `operating`、`investment`、`existing_financing` 和本次补缺口的 `new_gap_financing`。已有到期债务仍进入筹资前余额；本次新增资金及其窗口内约定还本付息只进入筹资后余额。每项可补 `source` 和 `nature`，未补时沿用情景口径。同日顺序应有支付记录或明确假设，工具据此计算资金低点。
+4. `operating` 填单产品稳定贡献模型 `single_stable_product`、数量单位、是否不可分、成本范围和顺序期间。每期显式给数量、净单位收入、已售单位变动成本与固定成本。不可分业务量向上取整；非正贡献返回 `no_positive_contribution`，保本量为 `null`。多产品、台阶成本另建适合的测算，工具不代做加权或容量判断。
+5. 在技能目录运行以下命令，再将结果中的情景名称、主体、来源与期间带回决策底稿。
+
+```powershell
+python scripts/calculate_economics.py "项目目录/经济情景.json" --output "项目目录/经济结果.json"
+```
+
+JSON 中计算结果的金额保存为十进制字符串，回显的原始整数仍为JSON整数；输入金额统一使用字符串可保持表示一致。`additional_funding_need` 是最低要求与筹资前低点的差额；`remaining_funding_need` 复核已输入新增资金的到账时序，资金晚到仍会留下早期缺口。期末余额逐期承接，逐笔余额可用于回查。`operating_surplus_within_cost_scope` 表示所填成本范围内的经营结余，未售存货和后续责任继续在项目材料中承接。结果保留输入口径，不从现金自动推导利润。
+
+复现教学输入：
+
+```powershell
+python scripts/calculate_economics.py evals/fixtures/economics-scenarios.json --output "项目目录/教学复算.json"
+```
+
+基线应得到现金低点−6000元、最低要求为0时补足6000元、2月回款后500元；经营模块独立得到1月结余500元。投资模块的字段与结果解释见[投资经济性](investment-economics.md#等间隔投资复算)。
+
 ## 口径参考
 
 存货在销售时与相关收入匹配的原则参考[IAS 2说明](https://www.ifrs.org/issued-standards/list-of-standards/ias-2-inventories/)；利润与现金、经营投资融资及非现金项目的区分参考[IAS 7说明](https://www.ifrs.org/issued-standards/list-of-standards/ias-7-statement-of-cash-flows.html/)。这里用它们帮助检查管理测算中的归属和漏项，项目法定会计、税务及农业资产处理按实际适用制度与专业确认执行。

@@ -22,6 +22,8 @@
 | 收到一批访谈转写，大家说法不同 | 事实与观点整理、角色立场比较、调研日报和下一轮补访问题 |
 | 当地都说缺品牌，但原因讲不清 | 围绕目标的诊断、关键堵点、可能原因和验证办法 |
 | 想找到有竞争力的定位或大单品 | 本地与竞品的同口径比较、候选方向、取舍依据和试验安排 |
+| 几个市场都想进入，资源又有限 | 进入路径比较、可执行的工程组合、首批验证与下一阶段条件 |
+| 增加品牌标识后销量变化，想知道是否值得继续投 | 区分品牌、曝光与经营变化的比较设计，以及对应投入安排 |
 | 需要把策略变成具体方案 | 经营主体、产品与渠道安排、执行步骤、材料和检查标准 |
 | 已有报告，需要深化或汇报 | 论证补强、章节修改、决策汇报结构和PPT逐页内容 |
 
@@ -96,11 +98,16 @@ git clone https://github.com/qingmingyiyang/brand-strategy-analysis.git
 | 要完成的动作 | 方法与案例 |
 |---|---|
 | 把证据、判断与工程连起来并追查更正 | [决策底稿与统一字段](references/decision-model.md) |
+| 选择进入方向并分配有限资源 | [进入路径与工程组合](references/strategic-perspective.md#比较进入路径并确定先后) |
+| 比较区域名、共同标识与企业品牌的贡献 | [品牌贡献验证](references/value-claims-and-evidence.md#验证哪一层品牌带来了什么贡献) |
 | 把品牌承诺交给不同角色兑现 | [品牌兑现与共同治理](references/brand-operating-manual.md) |
 | 算清经营收益、跨期库存、回款和资金缺口 | [经营与现金核算](references/economic-accounting.md) |
 | 比较设施投资、回收及长期公共投入 | [投资经济性](references/investment-economics.md) |
+| 反复比较跨期收付与经营参数 | [多情景复算工具](references/economic-accounting.md#多情景重复复算工具) |
+| 证据更正后查找相关报告位置 | [更正影响定位工具](references/project-state.md#按需定位更正影响) |
 | 比较主体收益、成交价差和观察指标 | [收益价差与指标](references/economics-and-metrics.md) |
 | 用一套虚构材料练习完整判断与交接 | [贯穿练习](evals/manual-case.md) |
+| 练习市场进入、资源组合与品牌效果判断 | [战略选项练习](evals/strategy-options-case.md) |
 
 八项基石在[技能入口](SKILL.md#八项基石原则)集中说明，详细方法与案例按当前任务展开。
 
@@ -147,7 +154,7 @@ git clone https://github.com/qingmingyiyang/brand-strategy-analysis.git
 
 使用能够读取本地文件的 AI 助手，提供项目背景和现有材料即可开始。访谈资料可直接提供文字转写；需要外部资料时使用联网工具，任务较大时可按助手支持的方式组织多Agent协作。
 
-当前版本为 **0.26.1**。你可以从访谈设计、问题诊断或某份专题进入，也可以用[贯穿练习](evals/manual-case.md)熟悉方法。各版变化见[更新记录](CHANGELOG.md)。[三个公开案例](https://github.com/qingmingyiyang/brand-strategy-analysis/blob/main/evals/real-cases.md)展示了如何比较解释、修改访谈材料，并根据新证据调整判断。你可以查看完整答卷和评审过程。
+当前版本为 **0.28.0**。你可以从访谈设计、问题诊断或某份专题进入，也可以用[贯穿练习](evals/manual-case.md)熟悉方法。各版变化见[更新记录](CHANGELOG.md)。[三个公开案例](https://github.com/qingmingyiyang/brand-strategy-analysis/blob/main/evals/real-cases.md)展示了如何比较解释、修改访谈材料，并根据新证据调整判断。你可以查看完整答卷和评审过程。
 
 ## 反馈与贡献
 

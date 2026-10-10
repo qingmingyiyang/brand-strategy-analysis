@@ -1,0 +1,92 @@
+{
+  "scenarios": [
+    {
+      "name": "库存与回款基线",
+      "subject": "合成教学供货商",
+      "currency": "CNY",
+      "monetary_unit": "元",
+      "nature": "assumption",
+      "source": "economic-accounting.md 完整算例；全部为合成教学数据",
+      "basis": "无税、折旧、退款或其他收付；已售成本与采购付款分开；期末50件库存3000元仍待处置",
+      "cash": {
+        "opening_cash": "3000",
+        "minimum_cash": "0",
+        "periods": [
+          {"label": "1月", "start": "2026-01-01", "end": "2026-01-31"},
+          {"label": "2月结算", "start": "2026-02-01", "end": "2026-02-28"}
+        ],
+        "transactions": [
+          {"date": "2026-01-02", "sequence": 1, "category": "operating", "direction": "out", "amount": "9000", "description": "购入150件并付款"},
+          {"date": "2026-01-20", "sequence": 1, "category": "operating", "direction": "in", "amount": "8000", "description": "第一笔回款"},
+          {"date": "2026-01-25", "sequence": 1, "category": "operating", "direction": "out", "amount": "2500", "description": "销售变动费用"},
+          {"date": "2026-01-31", "sequence": 1, "category": "operating", "direction": "out", "amount": "1000", "description": "固定费用"},
+          {"date": "2026-02-10", "sequence": 1, "category": "operating", "direction": "in", "amount": "2000", "description": "结清应收，不重复计收入"}
+        ]
+      },
+      "operating": {
+        "model": "single_stable_product",
+        "quantity_unit": "件",
+        "indivisible_unit": true,
+        "cost_scope": "已售货品60元/件及销售变动费25元/件，1月固定费1000元；无其他项目",
+        "periods": [
+          {"label": "1月已售业务", "start": "2026-01-01", "end": "2026-01-31", "quantity": "100", "unit_net_revenue": "100", "unit_sold_variable_cost": "85", "fixed_cost": "1000"}
+        ]
+      }
+    },
+    {
+      "name": "采购前筹资并支付已有到期债务",
+      "subject": "合成教学供货商",
+      "currency": "CNY",
+      "monetary_unit": "元",
+      "nature": "assumption",
+      "source": "基线的相邻合成情景；债务1000元和新增到账7000元均为教学假设",
+      "basis": "最低运营现金1000元；已有债务须支付，本次新增补缺口资金单列",
+      "cash": {
+        "opening_cash": "3000", "minimum_cash": "1000",
+        "periods": [{"label": "采购及结算", "start": "2026-01-01", "end": "2026-02-28"}],
+        "transactions": [
+          {"date": "2026-01-02", "sequence": 1, "category": "new_gap_financing", "direction": "in", "amount": "7000", "description": "在采购付款前补资金"},
+          {"date": "2026-01-02", "sequence": 2, "category": "operating", "direction": "out", "amount": "9000", "description": "采购付款"},
+          {"date": "2026-01-20", "sequence": 1, "category": "operating", "direction": "in", "amount": "8000", "description": "第一笔回款"},
+          {"date": "2026-01-25", "sequence": 1, "category": "operating", "direction": "out", "amount": "2500", "description": "变动费用"},
+          {"date": "2026-01-31", "sequence": 1, "category": "operating", "direction": "out", "amount": "1000", "description": "固定费用"},
+          {"date": "2026-02-01", "sequence": 1, "category": "existing_financing", "direction": "out", "amount": "1000", "description": "已有债务到期还本"},
+          {"date": "2026-02-10", "sequence": 1, "category": "operating", "direction": "in", "amount": "2000", "description": "结清应收"}
+        ]
+      }
+    },
+    {
+      "name": "配送成本上升",
+      "subject": "合成教学单品经营者",
+      "currency": "CNY", "monetary_unit": "元", "nature": "assumption",
+      "source": "economic-accounting.md 单笔贡献演算；合成数据",
+      "basis": "每月120单；配送从12升至17，其他条件保持；无税和额外成本",
+      "operating": {
+        "model": "single_stable_product", "quantity_unit": "单", "indivisible_unit": true,
+        "cost_scope": "商品60、包装5、手续费3、配送12或17；月固定费2000",
+        "periods": [
+          {"label": "配送12", "start": "2026-01-01", "end": "2026-01-31", "quantity": "120", "unit_net_revenue": "100", "unit_sold_variable_cost": "80", "fixed_cost": "2000"},
+          {"label": "配送17", "start": "2026-02-01", "end": "2026-02-28", "quantity": "120", "unit_net_revenue": "100", "unit_sold_variable_cost": "85", "fixed_cost": "2000"}
+        ]
+      }
+    },
+    {
+      "name": "三年投资含退出",
+      "subject": "合成教学项目",
+      "currency": "CNY", "monetary_unit": "万元", "nature": "assumption",
+      "source": "investment-economics.md 教学算例；合成数据",
+      "basis": "无税、融资与营运资金；净回收1万元为已扣退出成本的假设",
+      "investment": {
+        "perspective": "project_pre_financing", "frequency": "year", "rate_frequency": "year", "discount_rate": "0.10",
+        "lifecycle_complete": true,
+        "cash_scope": "t0为决策投入时点，后续每年末；A为营运资金变化前经营现金，融资排除，退出后无剩余责任",
+        "periods": [
+          {"t": 0, "label": "初始", "stage": "准备", "operating_before_working_capital": "0", "capital_spend": "10", "working_capital_change": "0", "net_asset_recovery": "0"},
+          {"t": 1, "label": "第1年末", "stage": "运营", "operating_before_working_capital": "4", "capital_spend": "0", "working_capital_change": "0", "net_asset_recovery": "0"},
+          {"t": 2, "label": "第2年末", "stage": "运营含维修", "operating_before_working_capital": "3", "capital_spend": "0", "working_capital_change": "0", "net_asset_recovery": "0"},
+          {"t": 3, "label": "第3年末", "stage": "退出", "operating_before_working_capital": "4", "capital_spend": "0", "working_capital_change": "0", "net_asset_recovery": "1"}
+        ]
+      }
+    }
+  ]
+}

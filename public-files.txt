@@ -43,3 +43,10 @@ references/investment-economics.md
 evals/fixtures/economic-cycle-input.md
 references/market-trends.md
 references/brand-value-evaluation.md
+evals/fixtures/strategy-options-input.md
+evals/strategy-options-case.md
+evals/test_check_project.py
+evals/fixtures/revision-report.md
+scripts/calculate_economics.py
+evals/test_economics.py
+evals/fixtures/economics-scenarios.json
