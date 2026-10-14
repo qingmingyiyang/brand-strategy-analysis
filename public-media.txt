@@ -1,0 +1,4 @@
+media/brand-intro/intro.mp4
+media/brand-intro/cover.png
+media/brand-intro/narration.md
+media/brand-intro/captions.srt
