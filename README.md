@@ -144,6 +144,7 @@ git clone https://github.com/qingmingyiyang/brand-strategy-analysis.git
 | 想进一步了解 | 阅读入口 |
 |---|---|
 | 如何选择当前工作流 | [任务路由](references/stage-routing.md)与[工作流](references/workflows.md) |
+| 怎样看懂产业现场并分析人货场匹配 | [人货场](references/people-goods-place.md) |
 | 怎样组织访谈并整理日报 | [调研闭环](references/fieldwork.md) |
 | 怎样找关键堵点与主要矛盾 | [问题诊断](references/problem-diagnosis.md) |
 | 怎样判断趋势并选择适合本地的回应 | [市场趋势与战略适配](references/market-trends.md) |
@@ -166,7 +167,7 @@ git clone https://github.com/qingmingyiyang/brand-strategy-analysis.git
 
 使用能够读取本地文件的 AI 助手，提供项目背景和现有材料即可开始。访谈资料可直接提供文字转写；需要外部资料时使用联网工具，任务较大时可按助手支持的方式组织多Agent协作。
 
-当前版本为 **0.28.0**。你可以从访谈设计、问题诊断或某份专题进入，也可以用[贯穿练习](evals/manual-case.md)熟悉方法。各版变化见[更新记录](CHANGELOG.md)。[三个公开案例](https://github.com/qingmingyiyang/brand-strategy-analysis/blob/main/evals/real-cases.md)展示了如何比较解释、修改访谈材料，并根据新证据调整判断。你可以查看完整答卷和评审过程。
+当前版本为 **0.29.0**。你可以从访谈设计、问题诊断或某份专题进入，也可以用[贯穿练习](evals/manual-case.md)熟悉方法。各版变化见[更新记录](CHANGELOG.md)。[三个公开案例](https://github.com/qingmingyiyang/brand-strategy-analysis/blob/main/evals/real-cases.md)展示了如何比较解释、修改访谈材料，并根据新证据调整判断。你可以查看完整答卷和评审过程。
 
 ## 反馈与贡献
 

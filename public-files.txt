@@ -50,3 +50,4 @@ evals/fixtures/revision-report.md
 scripts/calculate_economics.py
 evals/test_economics.py
 evals/fixtures/economics-scenarios.json
+references/people-goods-place.md
