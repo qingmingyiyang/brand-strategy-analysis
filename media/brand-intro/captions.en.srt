@@ -1,0 +1,239 @@
+﻿1
+00:00:01,000 --> 00:00:05,380
+A farming region has grown crops for decades. It has output and development projects,
+
+2
+00:00:05,740 --> 00:00:10,220
+but firms still make no profit. Repeated efforts to set quality standards and develop value-added processing
+
+3
+00:00:10,540 --> 00:00:14,520
+keep hitting obstacles. Why has the industry stalled here?
+
+4
+00:00:15,320 --> 00:00:17,220
+Let's use a fictional teaching case
+
+5
+00:00:17,620 --> 00:00:22,040
+to see how professional brand strategy analysis untangles the problem.
+
+6
+00:00:22,660 --> 00:00:26,840
+When we arrive, officials say there are no lead firms; firms say there is no market.
+
+7
+00:00:27,240 --> 00:00:31,320
+Farmers say investing isn't worthwhile. Each group has its own experience
+
+8
+00:00:31,500 --> 00:00:35,400
+and perspective. Everyone sees just one piece of the puzzle.
+
+9
+00:00:35,960 --> 00:00:39,760
+How do we fit the pieces together? Follow each claim to the evidence
+
+10
+00:00:40,100 --> 00:00:41,660
+and connect the evidence into a chain.
+
+11
+00:00:42,360 --> 00:00:45,520
+We start by tracing more than a decade of turning points in the industry.
+
+12
+00:00:46,240 --> 00:00:49,540
+We ask entrepreneurs about a processing project that never got off the ground:
+
+13
+00:00:49,980 --> 00:00:54,060
+What information blocked progress? Who withdrew their investment, and when?
+
+14
+00:00:54,620 --> 00:00:57,960
+Then we speak to the officials involved and to farmers, checking verbal agreements
+
+15
+00:00:58,280 --> 00:01:02,200
+against purchase records and the calculations made at the time.
+
+16
+00:01:02,860 --> 00:01:05,020
+Next, we look beyond the region to its peers.
+
+17
+00:01:05,700 --> 00:01:08,660
+Why do other regions with similar conditions make it work,
+
+18
+00:01:09,080 --> 00:01:12,520
+while this one keeps hitting the same obstacle? We compare
+
+19
+00:01:12,840 --> 00:01:15,600
+market, technical and investment conditions.
+
+20
+00:01:16,020 --> 00:01:20,040
+We also examine failures and exits, then link records across several years.
+
+21
+00:01:20,280 --> 00:01:21,900
+Only then does the problem begin to emerge.
+
+22
+00:01:22,340 --> 00:01:26,320
+In this case, other regions have a mechanism to share price risk.
+
+23
+00:01:26,860 --> 00:01:29,440
+Local processors need reliable deliveries.
+
+24
+00:01:29,840 --> 00:01:33,840
+Farmers want market rates when prices rise, and firms to guarantee a minimum price when they fall.
+
+25
+00:01:34,460 --> 00:01:37,580
+Guaranteed minimum prices also leave firms bearing the risk of falling prices.
+
+26
+00:01:38,340 --> 00:01:41,180
+Both sides avoid risks they cannot afford to bear,
+
+27
+00:01:41,560 --> 00:01:45,620
+so long-term contracts are hard to honor. Each side has reasons for its choices,
+
+28
+00:01:45,920 --> 00:01:47,600
+yet cooperation remains hard to sustain.
+
+29
+00:01:48,020 --> 00:01:50,700
+Only now is there evidence for a diagnosis:
+
+30
+00:01:51,140 --> 00:01:53,220
+these processing projects keep stalling
+
+31
+00:01:53,600 --> 00:01:58,000
+because the need for reliable supply and the way risk is shared do not align.
+
+32
+00:01:58,680 --> 00:02:01,640
+First, test the rules of cooperation. Then compare what it would take and cost
+
+33
+00:02:02,000 --> 00:02:06,680
+to add sales channels or invest in processing lines. Set out the choices in a three-year action plan.
+
+34
+00:02:07,340 --> 00:02:11,400
+You may now wonder: how can a newcomer conduct such rigorous analysis based on fieldwork
+
+35
+00:02:11,720 --> 00:02:14,480
+without years of experience?
+
+36
+00:02:14,960 --> 00:02:18,960
+That is why we developed the Brand Strategy Analysis Skill.
+
+37
+00:02:19,360 --> 00:02:22,720
+I have personally spent more than 150 days on field research over the years.
+
+38
+00:02:23,180 --> 00:02:26,720
+With my team, I researched over ten well-known regional public brands shared by local producers,
+
+39
+00:02:27,120 --> 00:02:30,860
+including Wuchang rice, Yangcheng Lake hairy crab and Huizhou fermented mandarin fish.
+
+40
+00:02:31,320 --> 00:02:34,460
+We distilled fieldwork, expert discussions and analytical judgment
+
+41
+00:02:34,880 --> 00:02:37,960
+into this open-source AI research skill.
+
+42
+00:02:38,520 --> 00:02:42,480
+It has three layers: task routing, workflows and actionable units.
+
+43
+00:02:43,000 --> 00:02:47,220
+It identifies your current task and directs you to the right workflow,
+
+44
+00:02:47,580 --> 00:02:51,040
+then breaks each stage into actionable units: concrete steps you can follow.
+
+45
+00:02:51,760 --> 00:02:55,840
+This turns complex expert thinking into methods you can put into practice
+
+46
+00:02:56,140 --> 00:02:57,820
+and update in light of the evidence.
+
+47
+00:02:58,460 --> 00:03:02,360
+For newcomers, it helps build detailed interview guides:
+
+48
+00:03:02,780 --> 00:03:06,400
+whom to talk to, what to ask about, how to follow up on an answer,
+
+49
+00:03:06,780 --> 00:03:10,440
+and which records to collect. Fieldwork materials go into daily reports.
+
+50
+00:03:10,820 --> 00:03:15,740
+AI helps find duplicates, check claims, seek counterexamples and locate gaps in the evidence,
+
+51
+00:03:16,120 --> 00:03:17,940
+then adapt the questions for the next round.
+
+52
+00:03:18,700 --> 00:03:23,600
+For experts, working with AI frees up more attention for key judgments.
+
+53
+00:03:24,320 --> 00:03:27,980
+AI helps organize basic analyses and cross-check source materials.
+
+54
+00:03:28,380 --> 00:03:32,220
+Drawing on field experience, you work with it to keep refining the questions and proposals,
+
+55
+00:03:32,540 --> 00:03:34,940
+developing more creative strategic options.
+
+56
+00:03:35,580 --> 00:03:39,620
+From an impasse of conflicting accounts to a strategy report with deep insights.
+
+57
+00:03:40,020 --> 00:03:44,240
+It helps governments and firms clarify why action is needed, who will take it,
+
+58
+00:03:44,560 --> 00:03:47,820
+and when to reassess, then turn those judgments into an action plan.
+
+59
+00:03:48,380 --> 00:03:52,780
+The Brand Strategy Analysis Skill translates expert judgment grounded in fieldwork
+
+60
+00:03:53,140 --> 00:03:55,480
+into practical next steps anyone can follow.

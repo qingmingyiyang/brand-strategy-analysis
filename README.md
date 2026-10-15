@@ -8,11 +8,11 @@
 
 [![产业为什么停在这里：从访谈线索到战略判断](https://raw.githubusercontent.com/qingmingyiyang/brand-strategy-analysis/main/media/brand-intro/cover.png)](https://github.com/qingmingyiyang/brand-strategy-analysis/blob/main/media/brand-intro/intro.mp4)
 
-**点击封面查看完整视频 · 实证与架构强化版 · 3分57秒 · 1080p**
+**点击封面查看完整视频 · 3分57秒 · 1080p / 60fps · 中英双语字幕**
 
 从一次加工投资受阻，理解访谈如何走向深度诊断，再看工作流怎样支持新手调研与专家判断。开篇产区和经营事件为教学虚构案例。
 
-[完整 MP4](https://github.com/qingmingyiyang/brand-strategy-analysis/raw/refs/heads/main/media/brand-intro/intro.mp4) · [阅读口播稿](https://github.com/qingmingyiyang/brand-strategy-analysis/blob/main/media/brand-intro/narration.md)
+[完整 MP4](https://github.com/qingmingyiyang/brand-strategy-analysis/raw/refs/heads/main/media/brand-intro/intro.mp4) · [阅读口播稿](https://github.com/qingmingyiyang/brand-strategy-analysis/blob/main/media/brand-intro/narration.md) · [英文字幕 SRT](https://github.com/qingmingyiyang/brand-strategy-analysis/blob/main/media/brand-intro/captions.en.srt)
 
 作者跨年度累计进行了150余天的实地调研，与团队共同走访研究五常大米、阳澄湖大闸蟹、徽州臭鳜鱼等十余个知名区域公用品牌。这套技能将田野调研、专家讨论与研究判断整理为可执行的方法。
 
