@@ -81,7 +81,11 @@ git clone https://github.com/qingmingyiyang/brand-strategy-analysis.git
 
 **明确目标 → 获取事实 → 形成初步诊断 → 针对性补证 → 比较策略 → 设计行动 → 根据结果调整。**
 
-这条流程可以从你当前的进度开始。下面是贯穿其中的三个方法。
+这条流程可以从你当前的进度开始。下面说明贯穿其中的方法。
+
+### 与AI一起训练批判性思维
+
+围绕理解问题、提出假设并设计框架、拆解问题、质疑论证、迭代验证和分析判断六项能力开展研究。先从事实形成初步解释，再分清事实、解释、价值目标和行动选择，让AI补充其他解释与反例，回到原始材料核验，形成有依据的选择。方法包含可直接填写的假设句式和四层拆解示例，见[六项判断与人机协同](references/reasoning-and-evidence.md#ai时代的六项判断能力)。已有判断直接复用，按当前缺口进入相应环节。
 
 ### 从事实形成判断
 
@@ -147,6 +151,7 @@ git clone https://github.com/qingmingyiyang/brand-strategy-analysis.git
 | 怎样看懂产业现场并分析人货场匹配 | [人货场](references/people-goods-place.md) |
 | 怎样组织访谈并整理日报 | [调研闭环](references/fieldwork.md) |
 | 怎样找关键堵点与主要矛盾 | [问题诊断](references/problem-diagnosis.md) |
+| 怎样提出假设、搭建框架并与AI检验判断 | [六项判断与四层拆解](references/reasoning-and-evidence.md#ai时代的六项判断能力) |
 | 怎样判断趋势并选择适合本地的回应 | [市场趋势与战略适配](references/market-trends.md) |
 | 如何使用产业组织等理论 | [理论支撑链](references/theory-chain.md) |
 | 怎样展开总体规划与专题 | [总体框架](references/master-plan.md)与[专题方法](references/special-reports.md) |
@@ -167,7 +172,7 @@ git clone https://github.com/qingmingyiyang/brand-strategy-analysis.git
 
 使用能够读取本地文件的 AI 助手，提供项目背景和现有材料即可开始。访谈资料可直接提供文字转写；需要外部资料时使用联网工具，任务较大时可按助手支持的方式组织多Agent协作。
 
-当前版本为 **0.29.0**。你可以从访谈设计、问题诊断或某份专题进入，也可以用[贯穿练习](evals/manual-case.md)熟悉方法。各版变化见[更新记录](CHANGELOG.md)。[三个公开案例](https://github.com/qingmingyiyang/brand-strategy-analysis/blob/main/evals/real-cases.md)展示了如何比较解释、修改访谈材料，并根据新证据调整判断。你可以查看完整答卷和评审过程。
+当前版本为 **0.30.1**。你可以从访谈设计、问题诊断或某份专题进入，也可以用[贯穿练习](evals/manual-case.md)熟悉方法。各版变化见[更新记录](CHANGELOG.md)。[三个公开案例](https://github.com/qingmingyiyang/brand-strategy-analysis/blob/main/evals/real-cases.md)展示了如何比较解释、修改访谈材料，并根据新证据调整判断。你可以查看完整答卷和评审过程。
 
 ## 反馈与贡献
 
