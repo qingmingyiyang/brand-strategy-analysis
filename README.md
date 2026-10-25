@@ -4,6 +4,16 @@
 
 品牌战略分析是面向区域公用品牌与特色农产品产业的开源 AI 研究技能。它带你追溯关键事件、核对经营记录、比较同行条件，让报告说清问题为什么反复出现，以及下一步为什么这样做。
 
+### 让品牌判断经得起追问
+
+[![品牌战略分析介绍短片](https://raw.githubusercontent.com/qingmingyiyang/brand-strategy-analysis/main/media/brand-overview/cover.png)](https://github.com/qingmingyiyang/brand-strategy-analysis/blob/main/media/brand-overview/intro.mp4)
+
+**约2分49秒 · 1080p / 30fps · 中文旁白与字幕**
+
+从同一笔订单的不同解释开始，理解调研如何保留多方视角、核验事实并分离归因与立场。短片讲解最小单元化和八项基石原则；浅绢色交互介绍页可继续查看原则、切换任务样例、核算配送费用，并下载访谈模板。
+
+[交互介绍页源码与运行](https://github.com/qingmingyiyang/brand-strategy-analysis/tree/main/website) · [观看短片](https://github.com/qingmingyiyang/brand-strategy-analysis/blob/main/media/brand-overview/intro.mp4) · [阅读口播稿](https://github.com/qingmingyiyang/brand-strategy-analysis/blob/main/media/brand-overview/narration.md)
+
 ### 观看项目介绍 · 产业为什么停在这里
 
 [![产业为什么停在这里：从访谈线索到战略判断](https://raw.githubusercontent.com/qingmingyiyang/brand-strategy-analysis/main/media/brand-intro/cover.png)](https://github.com/qingmingyiyang/brand-strategy-analysis/blob/main/media/brand-intro/intro.mp4)

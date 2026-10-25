@@ -2,3 +2,5 @@ references/private/
 __pycache__/
 *.pyc
 *.zip
+media/brand-overview/source/*.webm
+media/brand-overview/source/render-report.json

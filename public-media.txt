@@ -3,3 +3,12 @@ media/brand-intro/cover.png
 media/brand-intro/narration.md
 media/brand-intro/captions.srt
 media/brand-intro/captions.en.srt
+media/brand-overview/intro.mp4
+media/brand-overview/cover.png
+media/brand-overview/narration.md
+media/brand-overview/source/narration.wav
+media/brand-overview/source/assets/pear.png
+media/brand-overview/source/assets/pear-crate.png
+media/brand-overview/source/assets/cover-reference.png
+media/brand-overview/source/assets/opening-reference.png
+media/brand-overview/source/assets/opening-stage.png
